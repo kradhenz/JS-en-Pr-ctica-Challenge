@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+body {
+    background-color: #323330;
+}
+
+#main h1 {
+    color: #F0DB4F;
+}
+
+.card a {
+    color: #F0DB4F;
+    text-decoration: none;
+}
+
+@media (min-width: 768px) {
+    #main {
+        padding: 0 125px;
+    }
+
+    #m-cards {
+        margin-top: 50px;
+        padding-top: 50px;
+    }
+
+    .card {
+        background-color: black;
+    }
+
+    
+}
