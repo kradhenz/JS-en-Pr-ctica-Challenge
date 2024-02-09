@@ -13,43 +13,43 @@
             <h2>
                 Escríbenos !!!
             </h2>
-            <div class="resultado" style="color:green;font-style: italic">
+            <div class="validate" style="color:green;font-style: italic">
             </div>
-            <form id="formulario">
+            <form id="forms">
                 <div>
                     <div style="display: flex;flex-direction: column;">
                         <label>
                             Nombre completo
                         </label>
-                        <input id="nombre" type="text">
-                        <p class="errorNombre" style="color:red;font-style: italic;"></p>
+                        <input id="name" type="text">
+                        <p class="nameError" style="color:red;font-style: italic;"></p>
                     </div>
                     <div style="display: flex;flex-direction: column;">
                         <label>
                             Asunto
                         </label>
-                        <input id="asunto" type="text">
-                        <p class="errorAsunto" style="color:red;font-style: italic;"></p>
+                        <input id="subject" type="text">
+                        <p class="subjectError" style="color:red;font-style: italic;"></p>
                     </div>
                 </div>
                 <div style="display: flex;flex-direction: column;">
                     <label>
                         Mensaje
                     </label>
-                    <textarea id="mensaje"></textarea>
-                    <p class="errorMensaje" style="color:red;font-style: italic;"></p>
+                    <textarea id="msg"></textarea>
+                    <p class="msgError" style="color:red;font-style: italic;"></p>
                 </div>
                 <div>
-                    <button id="botton" type="submit">
+                    <button id="send" type="submit">
                         Envíar mensaje
                     </button>
                 </div>
             </form>
         </div>
     </div>
-    <script>
-    // Escríbe aquí tu código
-    </script>
+
+    <!-- JAVASCRIPT -->
+    <script src="./assets/js/ex1.js"></script>
 </body>
 
 </html>
