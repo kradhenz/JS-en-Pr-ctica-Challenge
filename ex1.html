@@ -15,23 +15,24 @@
             </h2>
             <div class="validate" style="color:green;font-style: italic">
             </div>
+
             <form id="forms">
-                <div>
-                    <div style="display: flex;flex-direction: column;">
-                        <label>
-                            Nombre completo
-                        </label>
-                        <input id="name" type="text">
-                        <p class="nameError" style="color:red;font-style: italic;"></p>
-                    </div>
-                    <div style="display: flex;flex-direction: column;">
-                        <label>
-                            Asunto
-                        </label>
-                        <input id="subject" type="text">
-                        <p class="subjectError" style="color:red;font-style: italic;"></p>
-                    </div>
+                <div style="display: flex;flex-direction: column;">
+                    <label>
+                        Nombre completo
+                    </label>
+                    <input id="name" type="text">
+                    <p class="nameError" style="color:red;font-style: italic;"></p>
                 </div>
+
+                <div style="display: flex;flex-direction: column;">
+                    <label>
+                        Asunto
+                    </label>
+                    <input id="subject" type="text">
+                    <p class="subjectError" style="color:red;font-style: italic;"></p>
+                </div>
+
                 <div style="display: flex;flex-direction: column;">
                     <label>
                         Mensaje
@@ -39,8 +40,9 @@
                     <textarea id="msg"></textarea>
                     <p class="msgError" style="color:red;font-style: italic;"></p>
                 </div>
+
                 <div>
-                    <button id="send" type="submit">
+                    <button id="send" type="button">
                         Envíar mensaje
                     </button>
                 </div>
