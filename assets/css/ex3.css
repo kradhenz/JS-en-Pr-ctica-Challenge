@@ -7,13 +7,22 @@ body {
     color: #F0DB4F;
 }
 
+.main {
+    padding-top: 25px;
+    margin-bottom: 118px;
+}
+
 h1 {
     font-size: xx-large;
     text-align: center;
-    padding: 25px 0;
+    padding: 35px 0;
 }
 
-.main section {
+.field {
+    text-align: center;
+}
+
+.field section {
     margin: 25px 0;
 }
 
@@ -32,10 +41,6 @@ input {
     font-size: larger;
 }
 
-.main {
-    text-align: center;
-}
-
 #btn {
     display: flex;
     padding-left: 465px;
@@ -50,9 +55,9 @@ input {
 }
 
 #btn-sum {
-    margin: 25px 50px 0;
+    margin: 55px 50px 0;
 }
 
 #btn-sub {
-    margin-top: 25px;
+    margin: 55px 0 0;
 }

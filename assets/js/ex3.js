@@ -8,6 +8,7 @@ function calculate(operation) {
     document.querySelector(".result").innerHTML = Math.max(0, result);
 }
 
+/*  -->   START   <--   */
 document.getElementById("btn-sum").addEventListener('click', function () {
     // call function giving the operation addition +
     calculate((num1, num2) => num1 + num2);

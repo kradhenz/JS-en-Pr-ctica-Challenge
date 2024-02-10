@@ -29,9 +29,8 @@ function validation(name, subject, msg) {
     };
     return success;
 }
-/* 
-    -->   START   <-- 
-*/
+
+/*  -->   START   <--   */
 // Get the form elements and add a submit event
 document.getElementById("forms").addEventListener('submit', function (event) {
     event.preventDefault();

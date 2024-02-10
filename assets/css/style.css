@@ -13,11 +13,29 @@ body {
     text-decoration: none;
 }
 
+/* FOOTER */
+footer {
+    background-color: #F0DB4F;
+    color: #323330;
+    text-align: center;
+}
+
+#footer i {
+    color: #323330;
+    text-decoration: none;
+}
+
+/* MEDIAS QUERY */
 @media (min-width: 768px) {
     #main {
+        margin-bottom: 138px;
         padding: 0 125px;
     }
 
+    #main h1 {
+        font-size: 75px;
+    }
+    
     #m-cards {
         margin-top: 50px;
         padding-top: 50px;
@@ -25,7 +43,25 @@ body {
 
     .card {
         background-color: black;
+        padding: 20px 0 0;
     }
 
-    
+    .card i {
+        color: #F0DB4F;
+        padding: 10px 0 20px;
+    }
+
+    #footer article {
+        padding-bottom: 30px;
+    }
+
+    #footer i {
+        color: #323330;
+        margin: 0px 10px;
+        text-decoration: none;
+    }
+
+    #footer p {
+        margin-top: 20px;
+    }
 }
