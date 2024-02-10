@@ -7,6 +7,11 @@ body {
     color: #F0DB4F;
 }
 
+a {
+    text-decoration: none;
+    color: #F0DB4F;
+}
+
 h2 {
     font-size: xx-large;
     text-align: center;
@@ -14,12 +19,12 @@ h2 {
 
 .main {
     width: 40%;
-    margin: 13px auto;
-    padding: 25px 0;
+    margin: auto;
+    padding: 0 0 75px;
 }
 
 .validate {
-    color: green;
+    color: lightgreen;
     font-style: italic;
     padding: 25px 0 0;
 }
@@ -34,6 +39,10 @@ label {
     padding: 20px 0 10px;
 }
 
+input {
+    font-size: large;
+}
+
 p {
     color: red;
     font-style: italic;
@@ -43,6 +52,7 @@ p {
 
 textarea {
     height: 125px;
+    font-size: x-large;
 }
 
 article {

@@ -7,9 +7,14 @@ body {
     color: #F0DB4F;
 }
 
+a {
+    text-decoration: none;
+    color: #F0DB4F;
+}
+
 h1 {
     text-align: center;
-    padding: 25px 0;
+    padding: 0 0 25px;
 }
 
 .main {

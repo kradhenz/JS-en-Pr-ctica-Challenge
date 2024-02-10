@@ -7,15 +7,19 @@ body {
     color: #F0DB4F;
 }
 
+a {
+    text-decoration: none;
+    color: #F0DB4F;
+}
+
 .main {
-    padding-top: 25px;
-    margin-bottom: 118px;
+    margin-bottom: 98px;
 }
 
 h1 {
     font-size: xx-large;
     text-align: center;
-    padding: 35px 0;
+    padding: 0 0 35px;
 }
 
 .field {

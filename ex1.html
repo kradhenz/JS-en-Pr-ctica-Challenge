@@ -4,10 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="assets/css/ex1.css">
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/5025c3e51d.js" crossorigin="anonymous"></script>
     <title>EJERCICIO 1</title>
 </head>
 
 <body>
+    <a href="main.html">
+        <i class="fa-brands fa-js fa-5x"></i>
+    </a>
     <section class="main">
         <h2>
             ¡ ESCRÍBENOS !
@@ -19,7 +24,7 @@
                 <label>
                     Nombre completo
                 </label>
-                <input id="name" type="text">
+                <input id="name" type="text" placeholder="Escriba su nombre aquí">
                 <p class="nameError"></p>
             </section>
 
@@ -27,7 +32,7 @@
                 <label>
                     Asunto
                 </label>
-                <input id="subject" type="text">
+                <input id="subject" type="text" placeholder="Escriba el asunto aquí">
                 <p class="subjectError"></p>
             </section>
 
@@ -35,7 +40,7 @@
                 <label>
                     Mensaje
                 </label>
-                <textarea id="msg"></textarea>
+                <textarea id="msg" placeholder="Escriba su mensaje aquí"></textarea>
                 <p class="msgError"></p>
             </section>
 
