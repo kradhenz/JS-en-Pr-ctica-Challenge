@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #323330;
+    color: #F0DB4F;
+}
+
+h1 {
+    font-size: xx-large;
+    text-align: center;
+    padding: 25px 0;
+}
+
+.main section {
+    margin: 25px 0;
+}
+
+label {
+    width: 100px;
+    height: 100px;
+    font-size: x-large;
+
+}
+
+input {
+    width: 200px;
+    height: 50px;
+    margin-left: 25px;
+    text-align: center;
+    font-size: larger;
+}
+
+.main {
+    text-align: center;
+}
+
+#btn {
+    display: flex;
+    padding-left: 465px;
+}
+
+#btn-sum, #btn-sub {
+    font-size: large;
+    font-weight: bold;
+    color: #323330;
+    background-color: #F0DB4F;
+    padding: 20px 30px;
+}
+
+#btn-sum {
+    margin: 25px 50px 0;
+}
+
+#btn-sub {
+    margin-top: 25px;
+}

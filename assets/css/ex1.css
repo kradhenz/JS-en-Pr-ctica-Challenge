@@ -52,6 +52,7 @@ article {
 #send {
     color: #323330;
     background-color: #F0DB4F;
+    font-weight: bold;
     margin-top: 20px;
     padding: 10px 20px;
 }

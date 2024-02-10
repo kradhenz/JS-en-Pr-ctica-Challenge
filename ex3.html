@@ -3,37 +3,34 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="./assets/css/ex3.css">
     <title>EJERCICIO 3</title>
 </head>
 
 <body>
-    <div>
-        <div>
-            <h2>
-                Resultado: <span class="result"></span>
-            </h2>
-            <div>
-                <div>
-                    <div>
-                        <label for="">Valor 1</label>
-                        <input id="value1" type="text">
-                    </div>
-                    <div>
-                        <label for="">Valor 2</label>
-                        <input id="value2" type="text">
-                    </div>
-                    <div style="display: flex">
-                        <button id="btn-sum" type="button">
-                            Sumar
-                        </button>
-                        <button id="btn-sub" type="button">
-                            Restar
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <section>
+        <h1>
+            Resultado: <span class="result"></span>
+        </h1>
+        <section class="main">
+            <section>
+                <label for="">Valor 1</label>
+                <input id="value1" type="text" placeholder="Digite aquí">
+            </section>
+            <section>
+                <label for="">Valor 2</label>
+                <input id="value2" type="text" placeholder="Digite aquí">
+            </section>
+            <section id="btn">
+                <button id="btn-sum" type="button">
+                    Sumar
+                </button>
+                <button id="btn-sub" type="button">
+                    Restar
+                </button>
+            </section>
+        </section>
+    </section>
 
     <script src="./assets/js/ex3.js"></script>
 </body>
