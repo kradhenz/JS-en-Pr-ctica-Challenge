@@ -3,51 +3,49 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/ex1.css">
     <title>EJERCICIO 1</title>
 </head>
 
 <body>
-    <div>
-        <div style="width: 40%;margin: 0 auto">
-            <h2>
-                Escríbenos !!!
-            </h2>
-            <div class="validate" style="color:green;font-style: italic">
-            </div>
+    <section class="main">
+        <h2>
+            ¡ ESCRÍBENOS !
+        </h2>
+        <section class="validate"></section>
 
-            <form id="forms">
-                <div style="display: flex;flex-direction: column;">
-                    <label>
-                        Nombre completo
-                    </label>
-                    <input id="name" type="text">
-                    <p class="nameError" style="color:red;font-style: italic;"></p>
-                </div>
+        <form id="forms">
+            <section>
+                <label>
+                    Nombre completo
+                </label>
+                <input id="name" type="text">
+                <p class="nameError"></p>
+            </section>
 
-                <div style="display: flex;flex-direction: column;">
-                    <label>
-                        Asunto
-                    </label>
-                    <input id="subject" type="text">
-                    <p class="subjectError" style="color:red;font-style: italic;"></p>
-                </div>
+            <section>
+                <label>
+                    Asunto
+                </label>
+                <input id="subject" type="text">
+                <p class="subjectError"></p>
+            </section>
 
-                <div style="display: flex;flex-direction: column;">
-                    <label>
-                        Mensaje
-                    </label>
-                    <textarea id="msg"></textarea>
-                    <p class="msgError" style="color:red;font-style: italic;"></p>
-                </div>
+            <section>
+                <label>
+                    Mensaje
+                </label>
+                <textarea id="msg"></textarea>
+                <p class="msgError"></p>
+            </section>
 
-                <div>
-                    <button id="send" type="submit">
-                        Envíar mensaje
-                    </button>
-                </div>
-            </form>
-        </div>
-    </div>
+            <article>
+                <button id="send" type="submit">
+                    <h4>Envíar mensaje</h4>
+                </button>
+            </article>
+        </form>
+    </section>
 
     <!-- JAVASCRIPT -->
     <script src="./assets/js/ex1.js"></script>
